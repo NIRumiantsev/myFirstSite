@@ -1,0 +1,392 @@
+@media screen and (max-width: 1280px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .first-section-container {
+        width: 100%;
+    }
+
+    .second-section-container {
+        width: 100%;
+    }
+
+    .third-section-container {
+        width: 100%;
+    }
+
+    .footer-bottom-container {
+        width: 100%;
+    }
+
+    .header {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .main-first-section {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .main-second-section {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .main-third-section {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .second-section-card {
+        margin-top: 20px;
+    }
+
+    .third-section-design-listing {
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .footer-laptop {
+        right: 0;
+    }
+
+    .footer-bottom-container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .footer-laptop {
+    width: 90%;
+    top: -30%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .footer-head {
+        padding-left: 18px;
+    }
+
+    .footer-head-title {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .footer-bottom-container {
+        padding-top: 500px;
+    }
+
+}
+
+@media screen and (max-width: 690px){
+
+    .header-navigation-hamburger {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin: 0 -50% 50px -50%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        z-index: 10;
+    }
+
+    .trigger-hidden {
+        width: 0;
+        overflow: hidden;
+    }
+
+    .cross {
+        background: #ffffff;
+        height: 80px;
+        width: 6px;
+        position: relative;
+        top: 20px;
+        right: -40%;
+        transform: rotate(45deg);
+        border-radius: 5px;
+    }
+
+    .cross:after {
+        content: "";
+        height: 6px;
+        width: 80px;
+        background: #ffffff;
+        position: absolute;
+        right: -38px;
+        top: 37px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .cross i{
+        transform: scale(0);
+    }
+
+
+    .menu {
+        display:none;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .menu li {
+        width: 100%;
+    }
+
+    .header-navigation-button {
+        margin-right: 0;
+        display: inline-block;
+        width: auto;
+    }
+
+    .header-join-button {
+        margin: 27px auto;
+    }
+
+    .trigger{
+        display:inline-block;
+        cursor:pointer;
+    }
+
+    .trigger i{
+        display: block;
+        width: 68px;
+        height: 6px;
+        margin: 15px auto;
+        background: #ffffff;
+        border-radius: 3px;
+    }
+
+
+    .show{
+        display: inline-block;
+        float: none;
+        position: relative;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+    }
+
+    .header-input-select {
+        margin-right: 100px;
+    }
+
+    .header-input-email {
+        display: block ;
+        margin-left: 0;
+        margin-top: 18px;
+    }
+
+    .header-input-button {
+        margin-top: 18px;
+    }
+
+    .header-input-arrow {
+        top: 42px;
+    }
+
+    .header-contact-button {
+        transform: rotate(270deg) scale(0.7);
+    }
+
+    .footer-head {
+        padding-top: 50%;
+    }
+}
+
+@media screen and (max-width: 620px){
+
+    .header-title {
+        width: 270px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .header-sample-text {
+        width: 270px;
+    }
+
+    .footer-head-title {
+        width: 270px;
+    }
+
+    .footer-head-title-name {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+
+}
+
+@media screen and (max-width: 570px){
+    .third-section-container-nav-cell {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .header-logo {
+        margin-bottom: 5%;
+    }
+
+    .header-input-select {
+        margin-right: 0;
+    }
+
+    .header-input-email {
+        margin-left: 0;
+        margin-top: 18px;
+    }
+
+    .header-input-button {
+        margin-top: 18px;
+    }
+
+    .header-input-arrow {
+        top: 42px;
+    }
+
+    .header-input-button {
+        display: block;
+        margin-left: 0;
+    }
+
+    .first-section-iphone {
+        width: 400px;
+        margin-left: -200px;
+        margin-right: -200px;
+        bottom: -450px;
+    }
+
+    .first-section-iphone-img {
+        width: 80%;
+    }
+
+
+    .second-section-card {
+        display: inline-block;
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .second-section-card-title {
+        margin-bottom: 10%;
+    }
+
+
+    .third-section-design-listing {
+        width: 80%;
+        margin: 5% auto;
+        display: inline-block;
+    }
+
+    .third-section-design-listing-img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .third-section-design-listing-icon {
+        right: 6%;
+    }
+
+    .footer-laptop {
+        width: 100%;
+    }
+
+    .footer-bottom-container {
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    .footer-social-nets {
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .footer-social-net-button {
+        float: none;
+    }
+
+    .footer-trademark {
+        display: block;
+        width: inherit;
+        text-align: center;
+    }
+
+    .footer-trademark-second-line {
+        float: none;
+    }
+
+    .footer-navigation {
+        margin-right: 9%;
+        margin-left: 4%;
+    }
+}
+
+
+
+@media screen and (max-width: 369px) {
+
+    .first-section-iphone {
+        width: 320px;
+        margin-left: -160px;
+        margin-right: -160px;
+        bottom: -350px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+
+    .header-title {
+        width: 240px;
+    }
+
+    .header-sample-text {
+        width: 240px;
+    }
+
+    .header-input-select select {
+        width: 240px;
+    }
+
+    .header-input-email {
+        width: 240px;
+    }
+
+    .second-section-card {
+        width: 90%;
+        display: block;
+    }
+
+    .third-section-design-listing-text {
+        display: inline-block;
+        width: auto;
+    }
+
+    .third-section-design-listing-icon {
+        right: 5%;
+    }
+
+    .footer-head-title-name {
+        width: 240px;
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .footer-head-text {
+        width: 240px;
+    }
+}
